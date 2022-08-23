@@ -454,4 +454,11 @@ margin-right: 5px;
  text-transform: capitalize;
  color: var(--textBlack-900);
 }
-/* 1:30:32 */
+.about .about-content .timeline .timeline-text{
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--textBlack-700);
+}
+
+/* 1:32:51 */
