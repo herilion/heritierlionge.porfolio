@@ -38,6 +38,9 @@ ul {
     padding: 0 30px;
     opacity: 1;
 }
+.hidden{
+    display: none !important;
+}
 .mainContent{
     padding-left: 270px;
 }
@@ -49,6 +52,40 @@ ul {
     max-width: 1100px;
     width: 100%;
     margin: auto;
+}
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.section-title{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+.section-title h2{
+    font-size: 40px;
+    color: var(--textBlack-900);
+    font-weight: 700;
+    position: relative;
+}
+.section-title h2::before{
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: var(--skinColor);
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.section-title h2::after{
+    content: '';
+    height: 4px;
+    width: 25px;
+    background-color: var(--skinColor);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
 }
 .row{
     display: flex;
@@ -256,6 +293,37 @@ h3.my-profession{
     border-radius: 5px;
     height: 400px;
 }
-
-
-/* 33:17 */
+/* About content */
+.about .about-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .about-text{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.about .about-content .about-text h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--textBlack-900);
+}
+.about .about-content .about-text h3 span{
+    color: var(--skinColor);
+}
+.about .about-content .about-text p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--textBlack-700);
+}
+.about .about-content .personal-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
+}
+.about .about-content .skills{
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+/* 59:22 */
