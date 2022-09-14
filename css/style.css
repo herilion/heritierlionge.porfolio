@@ -39,7 +39,7 @@ ul {
     opacity: 1;
 }
 .hidden{
-    display: none !important;
+    /* display: none !important; */
 }
 .mainContent{
     padding-left: 270px;
