@@ -476,5 +476,13 @@ margin-right: 5px;
 .service .service-item .service-item-inner:hover{
     box-shadow: 0 0 20px rgb(48, 46, 77,0.15);
 }
+.service .service-item .service-item-inner .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+}
 
 /* 1:32:51 */
