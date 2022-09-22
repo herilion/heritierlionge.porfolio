@@ -460,5 +460,11 @@ margin-right: 5px;
     text-align: justify;
     color: var(--textBlack-700);
 }
+/* service */
+.service .service-item{
+    margin-bottom: 30px;
+    flex:0 0 33.33% ;
+    max-width: 33.33%;
+}
 
 /* 1:32:51 */
