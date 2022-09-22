@@ -473,5 +473,8 @@ margin-right: 5px;
     text-align: center;
     transition: all 0.3s ease;
 }
+.service .service-item .service-item-inner:hover{
+    box-shadow: 0 0 20px rgb(48, 46, 77,0.15);
+}
 
 /* 1:32:51 */
