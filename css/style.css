@@ -466,5 +466,12 @@ margin-right: 5px;
     flex:0 0 33.33% ;
     max-width: 33.33%;
 }
+.service .service-item .service-item-inner{
+    background-color: var(--bgBlack-100);
+    border: 1px solid var(--bgBlack-50);
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
 
 /* 1:32:51 */
