@@ -484,5 +484,8 @@ margin-right: 5px;
     margin: 0 auto 30px;
     text-align: center;
 }
+.service .service-item .service-item-inner .icon .fa{
+  font-size: 40px;
+}
 
 /* 1:32:51 */
