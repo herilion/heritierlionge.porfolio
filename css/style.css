@@ -486,6 +486,8 @@ margin-right: 5px;
 }
 .service .service-item .service-item-inner .icon .fa{
   font-size: 40px;
+  line-height: 60px;
+  color: var(--skinColor);
 }
 
 /* 1:42:20 */
