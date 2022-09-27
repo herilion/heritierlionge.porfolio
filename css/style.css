@@ -461,6 +461,9 @@ margin-right: 5px;
     color: var(--textBlack-700);
 }
 /* service */
+.service .container{
+    padding-bottom: 40px;
+}
 .service .service-item{
     margin-bottom: 30px;
     flex:0 0 33.33% ;
