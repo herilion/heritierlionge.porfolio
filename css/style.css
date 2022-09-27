@@ -489,9 +489,14 @@ margin-right: 5px;
   font-size: 40px;
   line-height: 60px;
   color: var(--skinColor);
+  transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner:hover .icon{
     background: var(--skinColor);
+}
+.service .service-item .service-item-inner:hover .icon .fa{
+    font-size: 25px;
+    color: #ffffff;
 }
 
 /* 1:42:20 */
