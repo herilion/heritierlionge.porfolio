@@ -483,11 +483,15 @@ margin-right: 5px;
     display: block;
     margin: 0 auto 30px;
     text-align: center;
+    transition: all 0.3s ease;
 }
 .service .service-item .service-item-inner .icon .fa{
   font-size: 40px;
   line-height: 60px;
   color: var(--skinColor);
+}
+.service .service-item .service-item-inner:hover .icon{
+    background: var(--skinColor);
 }
 
 /* 1:42:20 */
