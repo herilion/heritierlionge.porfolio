@@ -513,5 +513,13 @@ margin-right: 5px;
     color: var(--textBlack-700);
     line-height: 25px;
 }
-
+/* portfolio */
+.portfolio .portfolio-heading{
+flex: 0 0 100%;
+max-width: 100%;
+}
+.portfolio .portfolio-heading h2{
+    color: var(--textBlack-900);
+    font-weight: 500;
+}
 /* 1:42:20 */
