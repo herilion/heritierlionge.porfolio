@@ -538,5 +538,6 @@ max-width: 100%;
 }
 .portfolio .portfolio-item .portfolio-img img{
     width: 100%;
+    display: block;
 }
 /* 1:42:20 */
