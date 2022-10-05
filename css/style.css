@@ -514,6 +514,9 @@ margin-right: 5px;
     line-height: 25px;
 }
 /* portfolio */
+.portfolio .container{
+    padding-bottom: 40px;
+}
 .portfolio .portfolio-heading{
 flex: 0 0 100%;
 max-width: 100%;
