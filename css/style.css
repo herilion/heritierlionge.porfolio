@@ -536,4 +536,7 @@ max-width: 100%;
     overflow: hidden;
     cursor: pointer;
 }
+.portfolio .portfolio-item .portfolio-img img{
+    width: 100%;
+}
 /* 1:42:20 */
