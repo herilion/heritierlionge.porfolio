@@ -552,5 +552,11 @@ margin-bottom: 40px;
     color: var(--textBlack-900);
     text-align: center;
     font-size: 15px;
+    margin-bottom: 60px;
+}
+.contact .contact-info-item{
+    flex: 0 0 25%;
+    max-width: 25%;
+    text-align: center;
 }
 /* 1:42:20 */
