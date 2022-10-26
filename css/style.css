@@ -547,6 +547,10 @@ margin-bottom: 40px;
     text-align: center;
     font-size: 25px;
     margin-bottom: 20px;
-
+}
+.contact-sub-title{
+    color: var(--textBlack-900);
+    text-align: center;
+    font-size: 15px;
 }
 /* 1:42:20 */
