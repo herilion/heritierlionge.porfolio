@@ -569,6 +569,8 @@ margin-bottom: 40px;
 .contact .contact-info-item h4{
    font-size: 18px;
    font-weight: 700;
-   color: var(--textBlack-900); 
+   color: var(--textBlack-900);
+   text-transform: capitalize; 
+   margin: 15px 0 5px;
 }
 /* 1:42:20 */
