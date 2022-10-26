@@ -541,4 +541,12 @@ margin-bottom: 40px;
     width: 100%;
     display: block;
 }
+/* contact style */
+.contact-title{
+    color: var(--skinColor);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
 /* 1:42:20 */
