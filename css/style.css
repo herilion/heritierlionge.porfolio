@@ -566,4 +566,9 @@ margin-bottom: 40px;
     font-size:25px ;
     color: var(--skinColor);
 }
+.contact .contact-info-item h4{
+   font-size: 18px;
+   font-weight: 700;
+   color: var(--textBlack-900); 
+}
 /* 1:42:20 */
