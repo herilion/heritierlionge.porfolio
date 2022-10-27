@@ -584,4 +584,8 @@ margin-bottom: 40px;
    flex: 0 0 100%;
    max-width: 100%; 
 }
+.contact .contact-form .col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
 /* 1:42:20 */
