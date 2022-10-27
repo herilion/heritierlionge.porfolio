@@ -580,4 +580,8 @@ margin-bottom: 40px;
     color: var(--textBlack-700);
     font-weight: 400;
 }
+.contact .contact-form{
+   flex: 0 0 100%;
+   max-width: 100%; 
+}
 /* 1:42:20 */
