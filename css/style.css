@@ -612,4 +612,8 @@ margin-bottom: 40px;
 .contact .contact-form .form-item textarea.form-control{
     height: 140px;
 }
+.contact .contact-form .btn{
+    height: 50px;
+    padding: 0 50px;
+}
 /* 1:42:20 */
