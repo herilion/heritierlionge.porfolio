@@ -609,4 +609,7 @@ margin-bottom: 40px;
 .contact .contact-form .form-item .form-control:focus{
     box-shadow: 0 0 20px rgb(48, 46, 77,0.15);
 }
+.contact .contact-form .form-item textarea.form-control{
+    height: 140px;
+}
 /* 1:42:20 */
