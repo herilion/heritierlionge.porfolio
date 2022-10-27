@@ -598,5 +598,8 @@ margin-bottom: 40px;
 .contact .contact-form .form-item .form-control{
     width: 100%;
     height: 50px;
+    border-radius: 25px;
+    background: var(--bgBlack-100);
+    border: 1px solid var(--bgBlack-50);
 }
 /* 1:42:20 */
