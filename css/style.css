@@ -592,4 +592,7 @@ margin-bottom: 40px;
     flex: 0 0 100%;
     max-width: 100%;
 }
+.contact .contact-form .form-item{
+    margin-bottom: 30px;
+}
 /* 1:42:20 */
