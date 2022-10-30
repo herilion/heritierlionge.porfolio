@@ -629,6 +629,10 @@ margin-bottom: 40px;
     }
 }
 @media(max-width:991px){
+    .service .service-item{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
     .home .home-info{
     flex: 0 0 100%;
     max-width: 100%;
