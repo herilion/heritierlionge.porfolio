@@ -618,7 +618,14 @@ margin-bottom: 40px;
 }
 @media(max-width:1190px){
     .aside{
-        
+         left: -270px;
+    }
+    .mainContent{
+        padding-left: 0;
+    }
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
     }
 }
 /* 1:42:20 */
