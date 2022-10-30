@@ -644,6 +644,10 @@ margin-bottom: 40px;
     }
 }
 @media(max-width:767px){
-    
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 /* 1:42:20 */
