@@ -629,6 +629,12 @@ margin-bottom: 40px;
     }
 }
 @media(max-width:991px){
-
+    .home .home-info{
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+    .home .home-img{
+    display: none;
+    }
 }
 /* 1:42:20 */
