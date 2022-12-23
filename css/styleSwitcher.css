@@ -41,6 +41,9 @@
     text-transform: capitalize;
 }
 .style-switcher .colors{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 
 }
 .style-switcher .colors span{
