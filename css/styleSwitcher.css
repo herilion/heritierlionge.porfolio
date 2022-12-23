@@ -21,4 +21,5 @@
     right: 100%;
     border: 1px solid var(--bgBlack-50);
     margin-right: 25px;
+    cursor: pointer;
 }
