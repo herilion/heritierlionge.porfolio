@@ -25,3 +25,16 @@
     transition:all 0.3s ease ;
     border-radius: 50%;
 }
+.style-switcher .s-icon i{
+    line-height: 40px;
+}
+.style-switcher .style-switcher-toggle{
+    top: 0;
+}
+.style-switcher .day-night{
+    top: 55px;
+}
+.style-switcher h4{
+    margin: 0 0 10px;
+    color: var(--textBlack-700);
+}
