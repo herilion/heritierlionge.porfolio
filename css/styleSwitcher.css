@@ -9,6 +9,7 @@
     z-index: 101;
     border-radius: 5px;
     transition: all 0.3 ease;
+    transform: translateX(100%);
 }
 .style-switcher .s-icon{
     position: absolute;
