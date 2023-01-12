@@ -21,3 +21,4 @@ function setActiveStyle(color) {
         }
     })
 }
+// theme ligth and dark mode
