@@ -25,6 +25,7 @@ function setActiveStyle(color) {
 const dayNight = document.querySelector('.day-night');
 dayNight.addEventListener('click', () => {
     dayNight.querySelector('i').classList.toggle('fa-sun');
+    dayNight.querySelector('i').classList.toggle('fa-moon')
 })
 window.addEventListener('load', () => {
     if (document.body.classList.contains('dark')) {
