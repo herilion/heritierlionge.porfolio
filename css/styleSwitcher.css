@@ -59,16 +59,21 @@ justify-content: space-between;
 }
 .style-switcher .color-1{
     background: #ec1839;
+    cursor: pointer;
 }
 .style-switcher .color-2{
     background: #6160b3;
+    cursor: pointer;
 }
 .style-switcher .color-3{
     background: #cf6ad3;
+    cursor: pointer;
 }
 .style-switcher .color-4{
     background: #79636f;
+    cursor: pointer;
 }
 .style-switcher .color-5{
     background: #5db9bd;
+    cursor: pointer;
 }
