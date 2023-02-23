@@ -628,6 +628,14 @@ margin-bottom: 40px;
     align-items: center;
     gap: 20px;
 }
+.groupSocial{
+    display: flex;
+    gap: 10px;
+}
+.groupSocial a{
+    color: red;
+}
+
 @media(max-width:1190px){
     .aside{
          left: -270px;
