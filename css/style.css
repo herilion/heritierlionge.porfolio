@@ -282,7 +282,7 @@ h3.my-profession{
 
 .home .home-img{
     flex: 0 0 40%;
-    max-width: 50%;
+    max-width: 40%;
     text-align: center;
     position: relative;
 }
