@@ -124,7 +124,7 @@ ul {
 }
 .groupSocial span{
     color: var(--skinColor);
-    width: 30px;
+    font-size: 30px;
 }
 .shadow-dark{
     box-shadow: 0 0 20px rgb(48, 46, 77,0.15);
