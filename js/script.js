@@ -16,3 +16,8 @@ var typed = new Typed('.typing', {
 //         this.classList.add('active');
 //     })
 // }
+const act=document.querySelector('.act');
+act.addEventListener('click',()=>{
+    act.style.color='red';
+    alert('attention')
+})
