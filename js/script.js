@@ -1,7 +1,3 @@
-const act=document.querySelector('.act');
-act.addEventListener('click',()=>{
-    act.style.color='red';
-})
 // typing animation
 var typed = new Typed('.typing', {
     strings: ["", "SoftWare Engineer", "FullStack web developper", "From Goma, DRC"],
