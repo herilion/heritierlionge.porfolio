@@ -16,8 +16,3 @@ var typed = new Typed('.typing', {
 //         this.classList.add('active');
 //     })
 // }
-const hcol=document.querySelector('.nav li');
-hcol.addEventListerner('click',()=>{
-    hcol.style.color='red';
-    alert('Heritier LIONGE')
-});
