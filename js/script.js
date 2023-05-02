@@ -13,11 +13,9 @@ const nav = document.querySelector('.nav'),
 for (let i = 0; i < totalNavList; i++) {
     const a = navList[i].querySelector('a');
     a.addEventListener('click', () => {
+        for(let j=0;j<totalNavList;j++){
+            navList[j].querySelector("a").classList.remove("active");
+        }
         this.classList.add('active');
     })
-}
-//active aside
-const red=document.querySelectorAll('.nav li' );
-red.addEventListener('click',()=>{
-    alert('li cliqué')
-})
+};
