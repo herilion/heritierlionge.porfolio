@@ -17,3 +17,7 @@ for (let i = 0; i < totalNavList; i++) {
     })
 }
 //active aside
+const red=document.querySelectorAll('.nav li' );
+red.addEventListener('click',()=>{
+    alert('li cliqué')
+})
