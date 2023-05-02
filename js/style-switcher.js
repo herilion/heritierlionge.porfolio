@@ -9,7 +9,7 @@ window.addEventListener('scroll', () => {
         document.querySelector('.style-switcher').classList.remove('open')
     }
 })
-// theme colors
+// theme colors change
 const alternateStyles = document.querySelectorAll('.alternate-style');
 function setActiveStyle(color) {
     alternateStyles.forEach((style) => {
