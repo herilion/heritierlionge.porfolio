@@ -16,4 +16,4 @@ for (let i = 0; i < totalNavList; i++) {
         this.classList.add('active');
     })
 }
-
+//active aside
