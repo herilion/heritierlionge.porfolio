@@ -1,3 +1,11 @@
+// typing animation
+var typed = new Typed('.typing', {
+    strings: ["", "SoftWare Engineer", "FullStack web developper", "From Goma, DRC"],
+    typeSpeed: 100,
+    BackSpeed: 60,
+    loop: true
+});
+
 // aside
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll('li'),
@@ -11,13 +19,5 @@ for (let i = 0; i < totalNavList; i++) {
         this.classList.add("active");
     })
 };
-
-// typing animation
-var typed = new Typed('.typing', {
-    strings: ["", "SoftWare Engineer", "FullStack web developper", "From Goma, DRC"],
-    typeSpeed: 100,
-    BackSpeed: 60,
-    loop: true
-});
 
 
