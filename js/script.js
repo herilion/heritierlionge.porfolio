@@ -1,5 +1,5 @@
 // aside
-const nav = document.querySelector('.nav'),
+const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll('li'),
     totalNavList = navList.length;
 for (let i = 0; i < totalNavList; i++) {
@@ -8,7 +8,7 @@ for (let i = 0; i < totalNavList; i++) {
         for(let j=0;j<totalNavList;j++){
             navList[j].querySelector("a").classList.remove("active");
         }
-        this.classList.add('active');
+        this.classList.add("active");
     })
 };
 
