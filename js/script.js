@@ -6,7 +6,7 @@ var typed = new Typed('.typing', {
     loop: true
 });
 
-// aside
+// management aside
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll('li'),
     totalNavList = navList.length;
