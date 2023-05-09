@@ -24,7 +24,8 @@ for (let i = 0; i < totalNavList; i++) {
     });
 }
 const showSection = (element) => {
-    console.log(element);
+    const target=element.getAttribute("href").split("#")[1];
+    document.querySelector("#" + target).classList.add("active");
 };
 
 
