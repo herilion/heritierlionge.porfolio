@@ -24,8 +24,8 @@ for (let i = 0; i < totalNavList; i++) {
         showSection(a);
     });
 }
-const showSection = (element) => {
-    console.log(element)
+const showSection = (a) => {
+    console.log(a)
     // for(let i=0; i<totalSection; i++){
     //     allSection[i].classList.remove("active");
     // }
