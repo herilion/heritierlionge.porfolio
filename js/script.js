@@ -12,13 +12,18 @@ const nav = document.querySelector(".nav"),
     totalNavList = navList.length;
 for (let i = 0; i < totalNavList; i++) {
     const a = navList[i].querySelector('a');
-    a.addEventListener('click', () => {
+    a.addEventListener('click', (event) => {
+        event.preventDefault();
         for(let j=0;j<totalNavList;j++){
             navList[j].querySelector("a").classList.remove("active");
         }
-        this.classList.add("active");
-        showSection(this)
-    })
+        a.classList.add("active");
+        showSection(a.getAttribute("href"));
+    });
+}
+const showSection = (element) => {
+    console.log(element);
 };
+
 
 
