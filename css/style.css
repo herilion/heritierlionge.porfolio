@@ -57,6 +57,16 @@ ul {
 .section.active{
     z-index: 2;
     opacity: 1;
+    animation: slideSection 1s ease;
+}
+@keyframes slideSection {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+    
 }
 .hidden{
     display: none !important;
