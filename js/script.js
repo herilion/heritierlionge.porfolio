@@ -17,6 +17,7 @@ for (let i = 0; i < totalNavList; i++) {
             navList[j].querySelector("a").classList.remove("active");
         }
         this.classList.add("active");
+        showSection(this)
     })
 };
 
