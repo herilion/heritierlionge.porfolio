@@ -21,11 +21,11 @@ for (let i = 0; i < totalNavList; i++) {
             navList[j].querySelector("a").classList.remove("active");
         }
         a.classList.add("active");
-        showSection(a.getAttribute("href"));
+        showSection(a);
     });
 }
 const showSection = (element) => {
-    
+    console.log(element)
     // for(let i=0; i<totalSection; i++){
     //     allSection[i].classList.remove("active");
     // }
