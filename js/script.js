@@ -1,8 +1,8 @@
 // typing animation
 var typed = new Typed('.typing', {
-    strings: ["", "SoftWare Engineer", "FullStack web developper", "From Goma, DRC"],
+    strings: ["", "Software Engineer", "FullStack web developer", "From Goma, DRC"],
     typeSpeed: 100,
-    BackSpeed: 60,
+    backSpeed: 60,
     loop: true
 });
 
@@ -26,12 +26,9 @@ for (let i = 0; i < totalNavList; i++) {
 }
 const showSection = (a) => {
     console.log(a)
-    // for(let i=0; i<totalSection; i++){
-    //     allSection[i].classList.remove("active");
-    // }
-    // const target = element.getAttribute("href").split("#")[1];
-    // document.querySelector("#" + target).classList.add("active");
+    for(let i=0; i<totalSection; i++){
+        allSection[i].classList.remove("active");
+    }
+    const target = element.getAttribute("href").split("#")[1];
+    document.querySelector("#" + target).classList.add("active");
 }
-
-
-
