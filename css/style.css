@@ -54,6 +54,9 @@ ul {
     overflow-x: hidden;
 
 }
+.section.back-section{
+    z-index: 1;
+}
 .section.active{
     z-index: 2;
     opacity: 1;
