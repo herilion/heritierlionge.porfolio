@@ -18,6 +18,9 @@ var typed = new Typed('.typing', {
     a.addEventListener('click', (event) => {
       event.preventDefault();
       for (let j = 0; j < totalNavList;j++) {
+        if(navList[j].querySelector("a").classList.contains("active")){
+          console.log(navList[i].querySelector("a"))
+        }
         navList[j].querySelector("a").classList.remove("active");
       }
       a.classList.add("active");
