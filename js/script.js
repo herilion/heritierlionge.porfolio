@@ -6,7 +6,7 @@ var typed = new Typed('.typing', {
     loop: true
   });
   
-  // management aside
+  // management aside ok
   const allSection = document.querySelectorAll(".section");
   const totalSection = allSection.length;
   const nav = document.querySelector(".nav");
