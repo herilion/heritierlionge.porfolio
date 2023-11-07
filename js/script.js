@@ -38,4 +38,7 @@ var typed = new Typed('.typing', {
     const target = a.getAttribute("href").split("#")[1];
     document.querySelector("#" + target).classList.add("active");
   }
+  const sumofvariable=()=>{
+    
+  }
   
