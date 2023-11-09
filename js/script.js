@@ -40,7 +40,7 @@ var typed = new Typed('.typing', {
   }
  const dif=(m,n)=>{
 for(let i=0;i<m){
-
+ 
 }
  }
   
