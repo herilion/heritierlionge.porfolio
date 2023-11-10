@@ -39,6 +39,7 @@ var typed = new Typed('.typing', {
     document.querySelector("#" + target).classList.add("active");
   }
  const dif=(m,n)=>{
-const mum='jacquie'
+const mum='jacquie';
+clearInterval.length
  }
   
