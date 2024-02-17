@@ -43,3 +43,18 @@ const mum='jacquie';
 clearInterval.length
  }
   //création de l'espace cobracomms.com
+  const shawSection = (a) => {
+    for (let i = 0; i < totalSection; i++) {
+      allSection[i].classList.remove("active");
+    }
+    const target = a.getAttribute("href").split("#")[1];
+    document.querySelector("#" + target).classList.add("active");
+  }
+ const df=(m,n)=>{
+const domaineName='cobracomms.com';
+const emailName='sbtgoma915@gmail.com';
+const SpaceName='120GB';
+const mailNumber=120;
+const certicatSSL='Free'
+clearInterval.length
+ }
