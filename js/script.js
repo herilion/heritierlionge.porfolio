@@ -42,4 +42,4 @@ var typed = new Typed('.typing', {
 const mum='jacquie';
 clearInterval.length
  }
-  //gsggh
+  //création de l'espace cobracomms.com
