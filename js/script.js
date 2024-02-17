@@ -57,5 +57,9 @@ const SpaceName='120GB';
 const mailNumber=120;
 const certicatSSL='Free';
 const securityMailing='active';
+console.log(domaineName);
+console.log(emailName);
+console.log(SpaceName);
+console.log(mailNumber);
 
  }
