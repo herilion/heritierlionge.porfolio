@@ -55,6 +55,7 @@ const domaineName='cobracomms.com';
 const emailName='sbtgoma915@gmail.com';
 const SpaceName='120GB';
 const mailNumber=120;
-const certicatSSL='Free'
-clearInterval.length
+const certicatSSL='Free';
+const securityMailing='active';
+
  }
