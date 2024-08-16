@@ -1,6 +1,6 @@
 // typing animation
 var typed = new Typed('.typing', {
-    strings: ["", "Software Engineer", "FullStack web developer", "From Goma, DRC"],
+    strings: ["", "Software Engineer", "FullStack web developer","Content creator", "From Goma, DRC"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
@@ -52,7 +52,7 @@ clearInterval.length
   }
  const df=(m,n)=>{
 const domaineName='cobracomms.com';
-const emailName='sbtgoma915@gmail.com';
+const emailName='h.lionge@smico.org';
 const SpaceName='120GB';
 const mailNumber=120;
 const certicatSSL='Free';
